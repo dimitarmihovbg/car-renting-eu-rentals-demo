@@ -1,0 +1,41 @@
+﻿@model IEnumerable<CarRentingEu.Dtos.RentalDto>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body class="bg-2-2">
+    <div class="container page-section-ptb">
+        <br />
+        <h3>Rentals</h3>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Rental No.</th>            
+                    <th>Customer Name</th>
+                    <th>Car Name</th>
+                    <th>Date Rented - Date Returned</th>
+                    <th>Remove Rental Record</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var rentals in Model)
+                {
+                    <tr>
+                        <td>@Html.ActionLink("Rental #"+rentals.Id, "Edit", "Rentals", new { id = rentals.Id }, null)</td>
+                        @*<td></td>*@
+                        <td>@rentals.Customer.Name</td>
+                        <td>@rentals.Car.Name</td>
+                        <td>@rentals.DateRented - @(rentals.DateReturned == null ? "Not Returned Yet" : "" + rentals.DateReturned)</td>
+                        <td>@Html.ActionLink("Delete", "Delete", "Rentals", new { id = rentals.Id })</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+        <p>
+            @Html.ActionLink("New Rental", "New", "Rentals", null, new { @class = "tp-caption button red tp-resizeme" })
+        </p>
+    </div>
+</body>
+

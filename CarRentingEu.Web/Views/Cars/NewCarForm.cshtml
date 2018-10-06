@@ -1,0 +1,40 @@
+﻿@model CarRentingEu.Web.ViewModels.CarFormViewModel
+@{
+    ViewBag.Title = Model.Title;
+
+
+}
+<body class="bg-2-2">
+    <div class="container page-section-ptb">
+        <br />
+        <h3>New Car</h3>
+        @using (Html.BeginForm("Save", "Cars"))
+        {
+            @Html.ValidationSummary(true, "Please fix the following errors.")
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Name)
+
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.ReleaseDate)
+                @Html.TextBoxFor(m => m.ReleaseDate, "{0:d MMM yyyy}", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ReleaseDate)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.ModelId)
+                @Html.DropDownListFor(m => m.ModelId, new SelectList(Model.Models, "Id", "Name"), "", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ModelId)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.NumberInStock)
+                @Html.TextBoxFor(m => m.NumberInStock, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.NumberInStock)
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            @Html.AntiForgeryToken()
+            <button type="submit" class="tp-caption button red tp-resizeme border">Save</button>
+        }
+    </div>
+</body>

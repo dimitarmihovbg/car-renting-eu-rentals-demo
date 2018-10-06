@@ -1,0 +1,51 @@
+﻿@model CarRentingEu.Web.ViewModels.CustomerFormViewModel
+@{
+    ViewBag.Title = "New";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<body class="bg-2-2">
+    <div class="container page-section-ptb">
+        <br />
+        <h3>New Customer</h3>
+        @using (Html.BeginForm("Save", "Customers"))
+        {
+            @Html.ValidationSummary(true, "Please fix the following errors.")
+            <div class="form-group">
+                @Html.LabelFor(m => m.Name)
+                @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Name)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.MembershipTypeId)
+                @Html.DropDownListFor(m => m.MembershipTypeId, new SelectList(Model.MembershipTypes, "Id", "Name"), "Select Membership Type", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.MembershipTypeId)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(m => m.Birthdate)
+                @Html.TextBoxFor(m => m.Birthdate, "{0:d MMM yyyy}", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.Birthdate)
+            </div>
+            <div class="checkbox">
+                <label>
+                    @Html.CheckBoxFor(m => m.IsSubscribedToNewsletter) Subscribed to Newsletter?
+                </label>
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            @Html.AntiForgeryToken()
+            <button type="submit" class="tp-caption button red tp-resizeme border">Save</button>
+        }
+    </div>
+</body>
+
+
+<style>
+    .field-validation-error {
+        color: #db504a !important;
+    }
+
+    .input-validation-error {
+        border: 2px solid #db504a;
+    }
+</style>

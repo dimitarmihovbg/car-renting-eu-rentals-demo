@@ -1,0 +1,35 @@
+﻿@model IEnumerable<CarRentingEu.Dtos.CarDto>
+
+@{
+    ViewBag.Title = "Cars";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<body class="bg-2-2">    
+    <div class="container page-section-ptb">
+        <br />
+        <h3>Available Cars</h3>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Car</th>
+                    <th>Model</th>
+                    <th>Delete Car</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var car in Model)
+                {
+                <tr>
+                    <td>@Html.ActionLink(car.Name, "Edit", "Cars", new { id = car.Id }, null)</td>
+                    <td>@car.Model.Name</td>
+                    <td>@Html.ActionLink("Delete", "Delete", "Cars", new { id = car.Id })</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+        <p class="">
+            @Html.ActionLink("New Car", "New", "Cars", null, new { @class = "tp-caption button red tp-resizeme" })
+        </p>
+    </div>
+</body>

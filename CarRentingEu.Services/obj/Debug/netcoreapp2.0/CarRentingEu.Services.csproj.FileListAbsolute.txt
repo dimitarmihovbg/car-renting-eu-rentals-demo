@@ -1,0 +1,80 @@
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csprojResolveAssemblyReference.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.deps.json
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.deps.json
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csprojResolveAssemblyReference.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.deps.json
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csprojResolveAssemblyReference.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\Working Car Renting\CarRentingEu - Special Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.deps.json
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\bin\Debug\netcoreapp2.0\CarRentingEu.Repository.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services\obj\Debug\netcoreapp2.0\CarRentingEu.Services.csprojAssemblyReference.cache

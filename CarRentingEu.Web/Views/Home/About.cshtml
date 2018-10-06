@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "About the Project";
+}
+
+<body class="bg-2-2">
+    <div class="container page-section-ptb customMessage">
+        <br />
+        <h3>@ViewData["Title"]</h3>
+        <br />
+        <div class="customContainer">
+            <div class="innerContainer">
+                <p>Welcome to my ASP.NET Core 2.0 Demo project of Car Rental service called "CarRenting.Eu".</p>
+                <br />
+                <p>This project is completely made to showcase my Back-End skills and knowledge as a .NET Developer.
+                Thus the main page is primarily for aestetics.</p>
+                <br />
+                <p>Custom user roles - Admin, Manager and User are implemented 
+                BUT are not inforced into this Demo version for Ease of Testability.</p>
+                <p>Any kind HR agent can go right ahead and try the functionality of the website in Rentals, 
+                Cars Available and Customers WITHOUT the need to register!</p>
+                <br />
+                <p>However In a Real world scenario all of the POST-type controllers would be behind authorisation of a Manager role.                
+                <br/>
+                Default registration level would be that of an User because the
+                The website's Functionality is designed to be used by Manager level.
+                <br/>
+                User role and unsigned visitors would have access only to a preview of the Listed items.</p>
+                <br />
+                <br />
+                <p>Details about the "CarRenting.Eu" project:</p>
+                <br />
+                <ul>
+                    <li>ASP.NET Core 2.0 is used as the Web App framework.</li>
+                    <br />
+                    <li>Entity Framework Core - Code-First approach is used for working with database.</li>
+                    <br />
+                    <li>
+                        Multi-Service (Multi-Tier) Architecture is used for building the application.
+                        The solution has seperate projects (class libraries) for each level of responsibility.
+                        <br />
+                        <div class="innerContainer2">
+                            The Repository level communicates with the database.
+                            <br />
+                            The Models level holds the Models for each database table.
+                            <br />The Services level holds the busines logic of the app
+                            and operates by drawing information from the Repository and passing it
+                            to the Web level.
+                            <br />
+                            The Web level serves as Presentaion Layer - using the Controllers
+                            to draw data from the Service and Views to present it to the end user.
+                            <br />
+                            Interface Libraries are used for both Repository and Services ensuring the proper code-contracts.
+                            <br />
+                            Also thanks to that approach the WEB/Presentation layer operates only with the
+                            appropriate Interfaces and has NO references or knowledge of the Repository or Models Libraries.
+                            <br />
+                            Helping that are also the DTO objects, which are used to provide a vessel for exposing
+                            only the parts needed for the presentation layer.
+                            <br />
+                            Overall this approach gives us better and more robust architecture for development of ASP.NET WebApps
+                            ensuring future-proofing, honoring the ability of the app to be
+                            "open for extension, but closed for modification", having looser coupling with each aspect
+                            and overall providing more clean OOP code with neat environment
+                            for Development and Support.
+                        </div>
+                        <br />
+                    <li>
+
+                        In Database:
+                        <div class="innerContainer2">
+                            The 'Model' table is connected to the 'Car' table via One-To-Many relationship.
+                            <br />
+                            'Customers' table and 'MembershipType' have One-To-Many relationship as well.
+                            <br />
+                            'Rentals' table has One-to-One relationship with both Customers and Cars.
+                            Each Rental can have only one Customer and One car.
+                            <br />
+                            Three different Custom User roles: 'Admin', 'Manager' and 'User' having
+                            access to different levels of content/functionality via authorizations levels.
+                            <br />
+                            However as i stated earlier - the authorisations for this Demo App have Not been enforced for the sake of Ease of Testability.</li>
+                    <br />                    
+                    <li><a href="https://github.com/dimitarmihovbg/car-renting-eu-rentals-demo">Check the code itself on GitHub</a></li>
+                    <br />
+                    <li>And thank you for being here! :)</li>
+                </ul>
+            </div>           
+         </div>
+    </div>
+</body>

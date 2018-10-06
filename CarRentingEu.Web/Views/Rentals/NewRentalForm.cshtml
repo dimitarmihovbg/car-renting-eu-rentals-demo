@@ -1,0 +1,37 @@
+﻿@model CarRentingEu.Web.ViewModels.RentalFormViewModel
+@{
+    ViewBag.Title = "Rentals";
+}
+<body class="bg-2-2">
+    <div class="container page-section-ptb">
+        <br />
+        <h3>New Rental</h3>
+        @using (Html.BeginForm("Save", "Rentals"))
+        {
+            @Html.ValidationSummary(true, "Please fix the following errors.")
+            <div class="form-group">
+                <h4>Car</h4>
+                @Html.DropDownListFor(m => m.CarId, new SelectList(Model.Cars, "Id", "Name"), "Select Car", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CarId)
+            </div>
+            <div class="form-group">
+                <h4>Customer</h4>
+                @Html.DropDownListFor(m => m.CustomerId, new SelectList(Model.Customers, "Id", "Name"), "Select Customer", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.CustomerId)
+            </div>
+            <div class="form-group">
+                <h4>Date Rented</h4>
+                @Html.TextBoxFor(m => m.DateRented, "{0:d MMM yyyy}", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.DateRented)
+            </div>
+            <div class="form-group">
+                <h4>Date Returned</h4>
+                @Html.TextBoxFor(m => m.DateReturned, "{0:d MMM yyyy}", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.DateReturned)
+            </div>
+            @Html.HiddenFor(m => m.Id)
+            @Html.AntiForgeryToken()
+            <button type="submit" class="tp-caption button red tp-resizeme border">Save</button>
+        }
+    </div>
+</body>

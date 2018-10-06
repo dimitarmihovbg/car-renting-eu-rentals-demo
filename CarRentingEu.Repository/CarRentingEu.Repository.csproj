@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20180925114540_AddingCarIdAndCustomerIdToRentalsTable.cs" />
+    <Compile Remove="Migrations\20180925114643_AddingCarIdAndCustomerIdToRentalsTable.cs" />
+    <Compile Remove="Migrations\20180925114706_AddingCarIdAndCustomerIdToRentalsTable.cs" />
+    <Compile Remove="Migrations\20180926111321_DatabaseGeneratedOptionIdentityForRentalId.cs" />
+    <Compile Remove="Migrations\20180926111850_ReCreateRentalsTableWithAutoIncrement.cs" />
+    <Compile Remove="Migrations\20180926113006_ChangeRentalIdToAutoIncrement.cs" />
+    <Compile Remove="Migrations\20180926114703_LearnCode2.cs" />
+    <Compile Remove="Migrations\20180926120936_UpdatedInitialModel.cs" />
+    <Compile Remove="Migrations\20180926121022_UpdatedInitialModel.cs" />
+    <Compile Remove="Migrations\20181004120206_ChangeIdTypesToGuid.cs" />
+    <Compile Remove="Migrations\20181004120224_ChangeIdTypesToInt.cs" />
+    <Compile Remove="Migrations\20181004120605_JustInPlace.cs" />
+    <Compile Remove="Migrations\20181004121659_whatever.cs" />
+    <Compile Remove="Migrations\20181005115552_DatabaseChanges.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CarRentingEu.Dtos\CarRentingEu.Dtos.csproj" />
+    <ProjectReference Include="..\CarRentingEu.Models\CarRentingEu.Models.csproj" />
+    <ProjectReference Include="..\CarRentingEu.Repository.Interfaces\CarRentingEu.Repository.Interfaces.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.EntityFrameworkCore">
+      <HintPath>..\..\..\..\..\..\Program Files\dotnet\sdk\NuGetFallbackFolder\microsoft.entityframeworkcore\2.0.2\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
