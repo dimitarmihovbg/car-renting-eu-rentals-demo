@@ -13,18 +13,26 @@ namespace CarRentingEu.Services
     public class RentalService : IRentalService
     {
         private IRentalRepository rentalForServicing;
+        private ICarRepository carForServicing;
         private readonly IMapper mapper;
 
-        public RentalService(IRentalRepository rental, IMapper mapper)
+        public RentalService(IRentalRepository rentalForServicing, IMapper mapper, ICarRepository carForServicing)
         {
-            rentalForServicing = rental;
+            this.rentalForServicing = rentalForServicing;
+            this.carForServicing = carForServicing;
             this.mapper = mapper;
         }
+
 
         //CREATE
 
         public void SaveSingleRental(RentalDto rental)
         {
+            if (rental.DateReturned == null)
+            {
+                carForServicing.RemoveCarAvailable(rental.CarId);
+            }
+
             var mappedRentalFromDto = mapper.Map<RentalDto, Rental>(rental);
             rentalForServicing.SaveSingleToDb(mappedRentalFromDto);
         }
@@ -50,6 +58,13 @@ namespace CarRentingEu.Services
 
         public void UpdateSingleRental(RentalDto rental)
         {
+            var rentalForCheck = rentalForServicing.GetSingleFromDb(rental.Id);
+
+            if (rentalForCheck.DateReturned == null & rental.DateReturned != null)
+            {
+                carForServicing.ReturnCarAvailable(rental.CarId);
+            }
+
             var mappedRentalFromDto = mapper.Map<RentalDto, Rental>(rental);
             rentalForServicing.UpdateSingleFromDb(mappedRentalFromDto);
         }

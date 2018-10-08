@@ -24,6 +24,10 @@ namespace CarRentingEu.Repository.Interfaces
 
         void UpdateSingleFromDb(Car car);
 
+        void ReturnCarAvailable(int id);
+
+        void RemoveCarAvailable(int id);
+
         //DELETE
 
         void DeleteSingleFromDb(Car car);

@@ -4204,26 +4204,23 @@
   },
   "packageFolders": {
     "C:\\Users\\Mitizaro\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Configuration\\CarRentingEu.Configuration.csproj",
+      "projectUniqueName": "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Configuration\\CarRentingEu.Configuration.csproj",
       "projectName": "CarRentingEu.Configuration",
-      "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Configuration\\CarRentingEu.Configuration.csproj",
+      "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Configuration\\CarRentingEu.Configuration.csproj",
       "packagesPath": "C:\\Users\\Mitizaro\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Configuration\\obj\\",
+      "outputPath": "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Configuration\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Mitizaro\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
@@ -4235,11 +4232,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Services.Interfaces\\CarRentingEu.Services.Interfaces.csproj": {
-              "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Services.Interfaces\\CarRentingEu.Services.Interfaces.csproj"
+            "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Services.Interfaces\\CarRentingEu.Services.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Services.Interfaces\\CarRentingEu.Services.Interfaces.csproj"
             },
-            "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Services\\CarRentingEu.Services.csproj": {
-              "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CarRentingEu - Depoloyment Copy\\CarRentingEu.Services\\CarRentingEu.Services.csproj"
+            "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Services\\CarRentingEu.Services.csproj": {
+              "projectPath": "C:\\Users\\Mitizaro\\Desktop\\CaRentingRepo\\car-renting-eu-rentals-demo\\CarRentingEu.Services\\CarRentingEu.Services.csproj"
             }
           }
         }

@@ -30,6 +30,11 @@ namespace CarRentingEu.Web.ViewModels
         [Required]
         public byte? NumberInStock { get; set; }
 
+        [Display(Name = "Number Available")]
+        [Range(1, 20)]
+        [Required]
+        public byte? NumberAvailable { get; set; }
+
         public string Title
         {
             get
@@ -49,6 +54,7 @@ namespace CarRentingEu.Web.ViewModels
             Name = car.Name;
             ReleaseDate = car.ReleaseDate;
             NumberInStock = car.NumberInStock;
+            NumberAvailable = car.NumberAvailable;
             ModelId = car.ModelId;
         }
     }

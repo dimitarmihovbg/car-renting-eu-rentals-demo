@@ -66,6 +66,20 @@ namespace CarRentingEu.Repository
             _context.SaveChanges();
         }
 
+        public void ReturnCarAvailable(int id)
+        {
+            _context.Cars.Single(c => c.Id == id).NumberAvailable++;
+
+            _context.SaveChanges();
+        }
+
+        public void RemoveCarAvailable(int id)
+        {
+            _context.Cars.Single(c => c.Id == id).NumberAvailable--;
+
+            _context.SaveChanges();
+        }
+
         //DELETE
 
         public void DeleteSingleFromDb(Car car)

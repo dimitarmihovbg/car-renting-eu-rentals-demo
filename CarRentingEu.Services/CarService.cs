@@ -25,6 +25,7 @@ namespace CarRentingEu.Services
 
         public void SaveSingleCar(CarDto carToBeSaved)
         {
+            carToBeSaved.NumberAvailable = carToBeSaved.NumberInStock;
             var mappedCarFromDto = mapper.Map<CarDto, Car>(carToBeSaved);
             carForServicing.SaveSingleToDb(mappedCarFromDto);
         }
