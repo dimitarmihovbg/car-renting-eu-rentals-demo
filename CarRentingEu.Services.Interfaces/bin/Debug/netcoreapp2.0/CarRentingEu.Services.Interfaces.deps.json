@@ -17,14 +17,16 @@
       },
       "CarRentingEu.Dtos/1.0.0": {
         "dependencies": {
-          "CarRentingEu.Models": "1.0.0",
-          "Microsoft.Extensions.Identity.Stores": "2.0.2.0"
+          "CarRentingEu.Models": "1.0.0"
         },
         "runtime": {
           "CarRentingEu.Dtos.dll": {}
         }
       },
       "CarRentingEu.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Identity.Stores": "2.0.2.0"
+        },
         "runtime": {
           "CarRentingEu.Models.dll": {}
         }

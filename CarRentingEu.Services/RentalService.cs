@@ -23,7 +23,6 @@ namespace CarRentingEu.Services
             this.mapper = mapper;
         }
 
-
         //CREATE
 
         public void SaveSingleRental(RentalDto rental)
@@ -38,7 +37,6 @@ namespace CarRentingEu.Services
         }
 
         //READ
-
 
         public IList<RentalDto> GetAllRentals()
         {

@@ -25,3 +25,30 @@ C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Web\obj\R
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.csproj.CopyComplete
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.dll
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Web.deps.json
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Web.runtimeconfig.json
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Web.runtimeconfig.dev.json
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Web.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Web.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Configuration.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Repository.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Repository.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Services.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Configuration.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Repository.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Repository.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\bin\Release\netcoreapp2.0\CarRentingEu.Services.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.csprojAssemblyReference.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Web\obj\Release\netcoreapp2.0\CarRentingEu.Web.pdb

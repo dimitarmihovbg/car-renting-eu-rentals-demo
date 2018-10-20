@@ -14,3 +14,19 @@ C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services.
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.csproj.CopyComplete
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
 C:\Users\Mitizaro\Desktop\CarRentingEu - Depoloyment Copy\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.deps.json
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Dtos.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Dtos.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\bin\Release\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.csprojAssemblyReference.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.csproj.CoreCompileInputs.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.AssemblyInfoInputs.cache
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.AssemblyInfo.cs
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.csproj.CopyComplete
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.dll
+C:\Users\Mitizaro\Desktop\CaRentingRepo\car-renting-eu-rentals-demo\CarRentingEu.Services.Interfaces\obj\Release\netcoreapp2.0\CarRentingEu.Services.Interfaces.pdb
