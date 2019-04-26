@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Web", "CarRentingEu.Web\CarRentingEu.Web.csproj", "{41F165D4-0243-41BE-B14B-944E55503CF7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Repository", "CarRentingEu.Repository\CarRentingEu.Repository.csproj", "{A4F85D27-8D94-4F3B-AD31-5E2987BCD423}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Repository.Interfaces", "CarRentingEu.Repository.Interfaces\CarRentingEu.Repository.Interfaces.csproj", "{568862CA-B283-44AE-9B06-7AB84AF42225}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Services", "CarRentingEu.Services\CarRentingEu.Services.csproj", "{1265D4BE-E5D5-4D0B-B4B8-C6FCEBD2A42B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Services.Interfaces", "CarRentingEu.Services.Interfaces\CarRentingEu.Services.Interfaces.csproj", "{7068C055-8E7A-4FE1-A0CE-DF034BAD4264}"
@@ -17,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Models", "CarR
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Dtos", "CarRentingEu.Dtos\CarRentingEu.Dtos.csproj", "{E41875A2-CACE-4781-B231-B9930AE1D0A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarRentingEu.Configuration", "CarRentingEu.Configuration\CarRentingEu.Configuration.csproj", "{13C5CE71-265E-4608-8208-CA83FF82D472}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Configuration", "CarRentingEu.Configuration\CarRentingEu.Configuration.csproj", "{13C5CE71-265E-4608-8208-CA83FF82D472}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarRentingEu.Data", "CarRentingEu.Data\CarRentingEu.Data.csproj", "{EDF94E0C-031F-4899-911D-EB6FAAFF061C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,14 +27,6 @@ Global
 		{41F165D4-0243-41BE-B14B-944E55503CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41F165D4-0243-41BE-B14B-944E55503CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41F165D4-0243-41BE-B14B-944E55503CF7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4F85D27-8D94-4F3B-AD31-5E2987BCD423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4F85D27-8D94-4F3B-AD31-5E2987BCD423}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4F85D27-8D94-4F3B-AD31-5E2987BCD423}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4F85D27-8D94-4F3B-AD31-5E2987BCD423}.Release|Any CPU.Build.0 = Release|Any CPU
-		{568862CA-B283-44AE-9B06-7AB84AF42225}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{568862CA-B283-44AE-9B06-7AB84AF42225}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{568862CA-B283-44AE-9B06-7AB84AF42225}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{568862CA-B283-44AE-9B06-7AB84AF42225}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1265D4BE-E5D5-4D0B-B4B8-C6FCEBD2A42B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1265D4BE-E5D5-4D0B-B4B8-C6FCEBD2A42B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1265D4BE-E5D5-4D0B-B4B8-C6FCEBD2A42B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -57,6 +47,10 @@ Global
 		{13C5CE71-265E-4608-8208-CA83FF82D472}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13C5CE71-265E-4608-8208-CA83FF82D472}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C5CE71-265E-4608-8208-CA83FF82D472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF94E0C-031F-4899-911D-EB6FAAFF061C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF94E0C-031F-4899-911D-EB6FAAFF061C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF94E0C-031F-4899-911D-EB6FAAFF061C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF94E0C-031F-4899-911D-EB6FAAFF061C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
 using CarRentingEu.Dtos;
 using CarRentingEu.Models;
-using CarRentingEu.Repository;
-using CarRentingEu.Repository.Interfaces;
+using CarRentingEu.Data;
 using CarRentingEu.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,62 +12,72 @@ namespace CarRentingEu.Services
 {
     public class CarService : ICarService
     {
-        private ICarRepository carForServicing;
         private readonly IMapper mapper;
+        private ApplicationDbContext _context;
 
-        public CarService(ICarRepository car, IMapper mapper)
+        public CarService(IMapper mapper, ApplicationDbContext _context)
         {
-            carForServicing = car;
             this.mapper = mapper;
+            this._context = _context;
         }
-
-        //CREATE
 
         public void SaveSingleCar(CarDto carToBeSaved)
         {
             carToBeSaved.NumberAvailable = carToBeSaved.NumberInStock;
-            var mappedCarFromDto = mapper.Map<CarDto, Car>(carToBeSaved);
-            carForServicing.SaveSingleToDb(mappedCarFromDto); 
-        }
 
-        //READ
+            var mappedCarFromDto = mapper.Map<CarDto, Car>(carToBeSaved);
+
+            _context.Cars.Add(mappedCarFromDto);
+
+            _context.SaveChanges();
+        }
 
         public CarDto GetSingleCar(int id)
         {
-            var car = carForServicing.GetSingleFromDb(id);
+            var car = _context.Cars.SingleOrDefault(c => c.Id == id);
+
             var mappedDtoCar = mapper.Map<Car, CarDto>(car);
+
             return mappedDtoCar;
         }
 
         public IList<CarDto> GetAllCars()
         {
-            var allCars = carForServicing.GetAllFromDb();
+            var allCars = _context.Cars.Include(m => m.Model).ToList();
+
             var mappedDtoCars = mapper.Map<List<CarDto>>(allCars);
+
             return mappedDtoCars;
         }
 
         public IList<ModelDto> GetAllModels()
         {
-            var allModels = carForServicing.GetAllModelsFromDb();
+            var allModels = _context.Models.ToList();
+
             var mappedDtoModels = mapper.Map<List<ModelDto>>(allModels);
+
             return mappedDtoModels;
         }
 
-        //UPDATE
-
         public void UpdateSingleCar(CarDto car)
         {
-            var mappedCarFromDto = mapper.Map<CarDto, Car>(car);
-            carForServicing.UpdateSingleFromDb(mappedCarFromDto);
-        }
+            var carInDb = _context.Cars.Single(m => m.Id == car.Id);
 
-        //DELETE
+            carInDb.Name = car.Name;
+            carInDb.ModelId = car.ModelId;
+            carInDb.NumberInStock = car.NumberInStock;
+            carInDb.ReleaseDate = car.ReleaseDate;
+
+            _context.SaveChanges();
+        }
        
         public void DeleteSingleCar(CarDto car)
-        {
-            var mappedCustomerFromDto = mapper.Map<CarDto, Car>(car);
-            carForServicing.DeleteSingleFromDb(mappedCustomerFromDto);
-        }
+        {          
+            var carForDeletion = _context.Cars.Find(car.Id);
 
+            _context.Cars.Remove(carForDeletion);
+
+            _context.SaveChanges();           
+        }
     }
 }

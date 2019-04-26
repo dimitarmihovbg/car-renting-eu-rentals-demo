@@ -10,7 +10,6 @@
         "dependencies": {
           "CarRentingEu.Dtos": "1.0.0",
           "CarRentingEu.Models": "1.0.0",
-          "CarRentingEu.Repository.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2"
         },
@@ -814,15 +813,6 @@
         "runtime": {
           "CarRentingEu.Models.dll": {}
         }
-      },
-      "CarRentingEu.Repository.Interfaces/1.0.0": {
-        "dependencies": {
-          "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Models": "1.0.0"
-        },
-        "runtime": {
-          "CarRentingEu.Repository.Interfaces.dll": {}
-        }
       }
     }
   },
@@ -1377,11 +1367,6 @@
       "sha512": ""
     },
     "CarRentingEu.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarRentingEu.Repository.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

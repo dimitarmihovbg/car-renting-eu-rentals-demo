@@ -9,8 +9,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarRentingEu.Data\CarRentingEu.Data.csproj" />
     <ProjectReference Include="..\CarRentingEu.Dtos\CarRentingEu.Dtos.csproj" />
-    <ProjectReference Include="..\CarRentingEu.Repository\CarRentingEu.Repository.csproj" />
     <ProjectReference Include="..\CarRentingEu.Services.Interfaces\CarRentingEu.Services.Interfaces.csproj" />
   </ItemGroup>
 

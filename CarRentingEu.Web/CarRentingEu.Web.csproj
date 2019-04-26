@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CarRentingEu.Configuration\CarRentingEu.Configuration.csproj" />
+    <ProjectReference Include="..\CarRentingEu.Data\CarRentingEu.Data.csproj" />
     <ProjectReference Include="..\CarRentingEu.Dtos\CarRentingEu.Dtos.csproj" />
     <ProjectReference Include="..\CarRentingEu.Services.Interfaces\CarRentingEu.Services.Interfaces.csproj" />
   </ItemGroup>

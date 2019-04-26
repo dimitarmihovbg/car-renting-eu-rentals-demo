@@ -12,7 +12,6 @@ using CarRentingEu.Web.Data;
 using CarRentingEu.Web.Models;
 using CarRentingEu.Web.Services;
 using CarRentingEu.Services.Interfaces;
-using CarRentingEu.Repository.Interfaces;
 using System.IO;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Http;
@@ -56,9 +55,6 @@ namespace CarRentingEu.Web
             services.AddSingleton(serviceConfig.RegisterCarService());
             services.AddSingleton(serviceConfig.RegisterRentalsService());
             services.AddSingleton(serviceConfig.RegisterCustomerService());
-            services.AddSingleton(serviceConfig.RegisterCarRepository());
-            services.AddSingleton(serviceConfig.RegisterRentalsRepository());
-            services.AddSingleton(serviceConfig.RegisterCustomerRepository());
 
             //Register Mapping From Configuration ClassLibrary
             var mappingConfig = new MappingConfiguration(services);

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v2.0": {
       "CarRentingEu.Configuration/1.0.0": {
         "dependencies": {
+          "CarRentingEu.Data": "1.0.0",
           "CarRentingEu.Services": "1.0.0",
           "CarRentingEu.Services.Interfaces": "1.0.0"
         },
@@ -811,6 +812,17 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
+      "CarRentingEu.Data/1.0.0": {
+        "dependencies": {
+          "CarRentingEu.Dtos": "1.0.0",
+          "CarRentingEu.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2"
+        },
+        "runtime": {
+          "CarRentingEu.Data.dll": {}
+        }
+      },
       "CarRentingEu.Dtos/1.0.0": {
         "dependencies": {
           "CarRentingEu.Models": "1.0.0"
@@ -824,32 +836,11 @@
           "CarRentingEu.Models.dll": {}
         }
       },
-      "CarRentingEu.Repository/1.0.0": {
-        "dependencies": {
-          "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Models": "1.0.0",
-          "CarRentingEu.Repository.Interfaces": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2"
-        },
-        "runtime": {
-          "CarRentingEu.Repository.dll": {}
-        }
-      },
-      "CarRentingEu.Repository.Interfaces/1.0.0": {
-        "dependencies": {
-          "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Models": "1.0.0"
-        },
-        "runtime": {
-          "CarRentingEu.Repository.Interfaces.dll": {}
-        }
-      },
       "CarRentingEu.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "7.0.1",
+          "CarRentingEu.Data": "1.0.0",
           "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Repository": "1.0.0",
           "CarRentingEu.Services.Interfaces": "1.0.0"
         },
         "runtime": {
@@ -1422,9 +1413,14 @@
     "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "CarRentingEu.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "CarRentingEu.Dtos/1.0.0": {
       "type": "project",
@@ -1432,16 +1428,6 @@
       "sha512": ""
     },
     "CarRentingEu.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarRentingEu.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarRentingEu.Repository.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

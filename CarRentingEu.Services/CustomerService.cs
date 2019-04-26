@@ -1,70 +1,80 @@
 ﻿using AutoMapper;
-using CarRentingEu.Models;
-using CarRentingEu.Repository.Interfaces;
-using CarRentingEu.Services.Interfaces;
+using CarRentingEu.Data;
 using CarRentingEu.Dtos;
-using System;
+using CarRentingEu.Models;
+using CarRentingEu.Services.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
 
 namespace CarRentingEu.Services
 {
     public class CustomerService : ICustomerService
     {
-        private ICustomerRepository customerForServicing;
         private readonly IMapper mapper;
+        private ApplicationDbContext _context;
 
-        public CustomerService(ICustomerRepository customer, IMapper mapper)
+        public CustomerService(IMapper mapper, ApplicationDbContext _context)
         {
-            customerForServicing = customer;
+            this._context = _context;
             this.mapper = mapper;
         }
-
-        //CREATE
 
         public void SaveSingleCustomer(CustomerDto customerToBeSaved)
         {
             var mappedDtoCustomer = mapper.Map<CustomerDto, Customer>(customerToBeSaved);
-            customerForServicing.SaveSingleToDb(mappedDtoCustomer);
-        }
 
-        //READ
+            _context.Customers.Add(mappedDtoCustomer);
+
+            _context.SaveChanges();
+        }
 
         public CustomerDto GetSingleCustomer(int id)
         {
-            var customer = customerForServicing.GetSingleFromDb(id);
+            var customer = _context.Customers.Find(id);
+
             var mappedDtoCustomer = mapper.Map<Customer, CustomerDto>(customer);
+
             return mappedDtoCustomer;
         }
 
         public IList<CustomerDto> GetAllCustomers()
         {
-            var allCustomers = customerForServicing.GetAllFromDb();
-            var mappedDtoCustomers = mapper.Map<List<CustomerDto>>(allCustomers);
+            var customers = _context.Customers.Include(m => m.MembershipType).ToList();
+
+            var mappedDtoCustomers = mapper.Map<List<CustomerDto>>(customers);
+           
             return mappedDtoCustomers;
         }              
 
         public IList<MembershipTypeDto> GetAllMemberships()
         {
-            var allMemberships = customerForServicing.GetAllMembershipsFromDb();
-            var mappedDtoMembershipTypes = mapper.Map<List<MembershipTypeDto>>(allMemberships);
+            var memberships = _context.MembershipTypes.ToList();
+
+            var mappedDtoMembershipTypes = mapper.Map<List<MembershipTypeDto>>(memberships);         
+
             return mappedDtoMembershipTypes;
         }
 
-        //UPDATE
-
         public void UpdateSingleCustomer(CustomerDto customer)
         {
-            var mappedCustomerFromDto = mapper.Map<CustomerDto, Customer>(customer);
-            customerForServicing.UpdateSingleFromDb(mappedCustomerFromDto);
-        }
+            var customerInDb = _context.Customers.Find(customer.Id);
 
-        //DELETE
+            customerInDb.Name = customer.Name;
+            customerInDb.Birthdate = customer.Birthdate;
+            customerInDb.MembershipTypeId = customer.MembershipTypeId;
+            customerInDb.IsSubscribedToNewsletter = customer.IsSubscribedToNewsletter;
+
+            _context.SaveChanges();
+        }
 
         public void DeleteSingleCustomer(CustomerDto customer)
         {
-            var mappedCustomerFromDto = mapper.Map<CustomerDto, Customer>(customer);
-            customerForServicing.DeleteSingleFromDb(mappedCustomerFromDto);
+            var customerForDeletion = _context.Customers.Find(customer.Id);
+
+            _context.Customers.Remove(customerForDeletion);
+
+            _context.SaveChanges();         
         }
     }
 }

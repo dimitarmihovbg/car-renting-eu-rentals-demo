@@ -1,6 +1,4 @@
 ﻿using CarRentingEu.Models;
-using CarRentingEu.Repository;
-using CarRentingEu.Repository.Interfaces;
 using CarRentingEu.Services;
 using CarRentingEu.Services.Interfaces;
 using Microsoft.AspNetCore.Identity;
@@ -35,21 +33,6 @@ namespace CarRentingEu.Configuration
         public IServiceCollection RegisterRentalsService()
         {
             return services.AddTransient<IRentalService, RentalService>();
-        }
-
-        public IServiceCollection RegisterCarRepository()
-        {
-            return services.AddTransient<ICarRepository, CarRepository>();
-        }
-
-        public IServiceCollection RegisterCustomerRepository()
-        {
-            return services.AddTransient<ICustomerRepository, CustomerRepository>();
-        }        
-
-        public IServiceCollection RegisterRentalsRepository()
-        {
-            return services.AddTransient<IRentalRepository, RentalRepository>();
         }
     }
 }

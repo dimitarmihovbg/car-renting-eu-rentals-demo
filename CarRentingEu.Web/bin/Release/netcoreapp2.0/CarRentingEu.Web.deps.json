@@ -26,6 +26,7 @@
         "dependencies": {
           "AutoMapper": "7.0.1",
           "CarRentingEu.Configuration": "1.0.0",
+          "CarRentingEu.Data": "1.0.0",
           "CarRentingEu.Dtos": "1.0.0",
           "CarRentingEu.Services.Interfaces": "1.0.0",
           "Microsoft.AspNetCore.All": "2.0.6",
@@ -4661,6 +4662,7 @@
       },
       "CarRentingEu.Configuration/1.0.0": {
         "dependencies": {
+          "CarRentingEu.Data": "1.0.0",
           "CarRentingEu.Services": "1.0.0",
           "CarRentingEu.Services.Interfaces": "1.0.0"
         },
@@ -4669,6 +4671,20 @@
         },
         "compile": {
           "CarRentingEu.Configuration.dll": {}
+        }
+      },
+      "CarRentingEu.Data/1.0.0": {
+        "dependencies": {
+          "CarRentingEu.Dtos": "1.0.0",
+          "CarRentingEu.Models": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2"
+        },
+        "runtime": {
+          "CarRentingEu.Data.dll": {}
+        },
+        "compile": {
+          "CarRentingEu.Data.dll": {}
         }
       },
       "CarRentingEu.Dtos/1.0.0": {
@@ -4690,38 +4706,11 @@
           "CarRentingEu.Models.dll": {}
         }
       },
-      "CarRentingEu.Repository/1.0.0": {
-        "dependencies": {
-          "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Models": "1.0.0",
-          "CarRentingEu.Repository.Interfaces": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "2.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2"
-        },
-        "runtime": {
-          "CarRentingEu.Repository.dll": {}
-        },
-        "compile": {
-          "CarRentingEu.Repository.dll": {}
-        }
-      },
-      "CarRentingEu.Repository.Interfaces/1.0.0": {
-        "dependencies": {
-          "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Models": "1.0.0"
-        },
-        "runtime": {
-          "CarRentingEu.Repository.Interfaces.dll": {}
-        },
-        "compile": {
-          "CarRentingEu.Repository.Interfaces.dll": {}
-        }
-      },
       "CarRentingEu.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "7.0.1",
+          "CarRentingEu.Data": "1.0.0",
           "CarRentingEu.Dtos": "1.0.0",
-          "CarRentingEu.Repository": "1.0.0",
           "CarRentingEu.Services.Interfaces": "1.0.0"
         },
         "runtime": {
@@ -6337,42 +6326,42 @@
     "SQLitePCLRaw.bundle_green/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Kw+n4CUhQ8S4YAPmpRUldO8S7c4LU7HHukJF0v5Sfggf8Ia9YVdIh0dYkMvKvS+DTX+OBORSMqPM0CGfAzFtVA==",
+      "sha512": "sha512-ndZplZhKILwXTlM3v4EYQlJqTJ4OFoOoGDIk9w1a6Qv4x1lnUyM0CPnHGBzh3jnmHpUYeVCqTDwFQ9zyHZDOGQ==",
       "path": "sqlitepclraw.bundle_green/1.1.7",
       "hashPath": "sqlitepclraw.bundle_green.1.1.7.nupkg.sha512"
     },
     "SQLitePCLRaw.core/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u9k9ZFkyTU6CVyXWpRuuXOvKi/cy/xt1oGKVSW8aUKcTL4RdH34yFNtVykEeiR68ojIEvmoZfL51h/xx2IQk5g==",
+      "sha512": "sha512-OwSVeqJVN2M0eU7h6Xw4S8BvzNde9T1o8vP9a7OBGBC4CXBa1ePBjo7tq6gkF6yIdcDxkqLbOraHBxdLrvMq2g==",
       "path": "sqlitepclraw.core/1.1.7",
       "hashPath": "sqlitepclraw.core.1.1.7.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.linux/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KRqMd1qLwJ4pzPybj8q95s+wV6jby5F0O/rp0vw3wa2Z2wHxRm0VqxS2Sejlr7Ctz+LxSr8DpNg1l1u6n/PAPA==",
+      "sha512": "sha512-LWxJ0JhP6+FeiKadmlve/5zfdgACoUCqjbYGD2TDGpBUrHC0v+RdjZhXi48sTnkVW5fn+TtA37WV02LSMFJH3w==",
       "path": "sqlitepclraw.lib.e_sqlite3.linux/1.1.7",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.linux.1.1.7.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.osx/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hdZx1DKHbDi4li6abmJ+A29mxY8D6BcM0s8VMT8p4MWEyrj54CZFUm402jTV6OgZCsFGkbRFnuFdBXf4vSDO7g==",
+      "sha512": "sha512-LnEgt++nwP2KnoFYIKdAXPjS9W8ZGU1DfL/PHyAqLBQQlfG5V0H/HHiVJOh5B6XQ4Jf0AdJQphtkVG4u2V3mYQ==",
       "path": "sqlitepclraw.lib.e_sqlite3.osx/1.1.7",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.osx.1.1.7.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3.v110_xp/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-roIdTH4a4iFa08HOwTWnzj2QYBIpSZRYfLSvHjtbH67I4DSWregrd4jkSnoOuwC5GHG08FNahBfEx3HAsVqW+g==",
+      "sha512": "sha512-M1WskZ/7pOTLCwdPgvrK4YGx+pJoT5cISUs8G8O68Wr+yLUBnz4BhnS+suhUiD1W/UAkFev/MnbeCiQj87VaTQ==",
       "path": "sqlitepclraw.lib.e_sqlite3.v110_xp/1.1.7",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.v110_xp.1.1.7.nupkg.sha512"
     },
     "SQLitePCLRaw.provider.e_sqlite3.netstandard11/1.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Zdug2wETm6847337EtD8MoCAtOdwM6prEXL/UsJ97Zxvoeyk/gUpdtuFNBxgJzceuty0jymjxm5yur5QajdApg==",
+      "sha512": "sha512-J81nAWSiEJK8agJR/r9uRy+0SGmsFq3GmSMu4QS0Jzr+OQDAjLVZ/qNhUF1Q15p/h/NR5/o0HyzVHPofcxEyvA==",
       "path": "sqlitepclraw.provider.e_sqlite3.netstandard11/1.1.7",
       "hashPath": "sqlitepclraw.provider.e_sqlite3.netstandard11.1.1.7.nupkg.sha512"
     },
@@ -7030,7 +7019,7 @@
     "System.ValueTuple/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
@@ -7088,22 +7077,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "CarRentingEu.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "CarRentingEu.Dtos/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
     "CarRentingEu.Models/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarRentingEu.Repository/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "CarRentingEu.Repository.Interfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

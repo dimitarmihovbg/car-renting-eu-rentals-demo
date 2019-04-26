@@ -1,78 +1,85 @@
 ﻿using AutoMapper;
 using CarRentingEu.Dtos;
+using CarRentingEu.Data;
 using CarRentingEu.Models;
-using CarRentingEu.Repository.Interfaces;
 using CarRentingEu.Services.Interfaces;
-using System;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace CarRentingEu.Services
 {
     public class RentalService : IRentalService
     {
-        private IRentalRepository rentalForServicing;
-        private ICarRepository carForServicing;
+        private ApplicationDbContext _context;
         private readonly IMapper mapper;
 
-        public RentalService(IRentalRepository rentalForServicing, IMapper mapper, ICarRepository carForServicing)
+        public RentalService(IMapper mapper, ApplicationDbContext _context)
         {
-            this.rentalForServicing = rentalForServicing;
-            this.carForServicing = carForServicing;
+            this._context = _context;
             this.mapper = mapper;
         }
-
-        //CREATE
 
         public void SaveSingleRental(RentalDto rental)
         {
             if (rental.DateReturned == null)
             {
-                carForServicing.RemoveCarAvailable(rental.CarId);
+                _context.Cars.Find(rental.Id).NumberAvailable--;
+
+                _context.SaveChanges();              
             }
 
             var mappedRentalFromDto = mapper.Map<RentalDto, Rental>(rental);
-            rentalForServicing.SaveSingleToDb(mappedRentalFromDto);
-        }
 
-        //READ
+            _context.Rentals.Add(mappedRentalFromDto);
 
-        public IList<RentalDto> GetAllRentals()
-        {
-            var allRentals = rentalForServicing.GetAllFromDb();
-            var mappedDtoRentals = mapper.Map<List<RentalDto>>(allRentals);
-            return mappedDtoRentals;
+            _context.SaveChanges();          
         }
 
         public RentalDto GetSingleRental(int id)
-        {           
-            var rental = rentalForServicing.GetSingleFromDb(id);
-            var mappedDtoFromCustomer = mapper.Map<Rental, RentalDto>(rental);
-            return mappedDtoFromCustomer;
+        {
+            var rental = _context.Rentals.Find(id);
+
+            var mappedRentalDto = mapper.Map<Rental, RentalDto>(rental);
+
+            return mappedRentalDto;
         }
 
-        //UPDATE
+        public IList<RentalDto> GetAllRentals()
+        {
+            var rentals = _context.Rentals.Include(m => m.Car).Include(m => m.Customer).ToList();
+
+            var mappedDtoRentals = mapper.Map<List<RentalDto>>(rentals);
+
+            return mappedDtoRentals;
+        }        
 
         public void UpdateSingleRental(RentalDto rental)
         {
-            var rentalForCheck = rentalForServicing.GetSingleFromDb(rental.Id);
+            var rentalInDb = _context.Rentals.Find(rental.Id);
 
-            if (rentalForCheck.DateReturned == null & rental.DateReturned != null)
+            if (rentalInDb.DateReturned == null & rental.DateReturned != null)
             {
-                carForServicing.ReturnCarAvailable(rental.CarId);
+                _context.Cars.Find(rental.CarId).NumberAvailable++;
+
+                _context.SaveChanges();
             }
 
-            var mappedRentalFromDto = mapper.Map<RentalDto, Rental>(rental);
-            rentalForServicing.UpdateSingleFromDb(mappedRentalFromDto);
-        }
+            rentalInDb.DateRented = rental.DateRented;
+            rentalInDb.DateReturned = rental.DateReturned;
+            rentalInDb.CarId = rental.CarId;
+            rentalInDb.CustomerId = rental.CustomerId;
 
-        //DELETE
+            _context.SaveChanges();      
+        }
 
         public void DeleteSingleRental(RentalDto rental)
         {
-            var mappedRentalFromDto = mapper.Map<RentalDto, Rental>(rental);
-            rentalForServicing.DeleteSingleFromDb(mappedRentalFromDto);
+            var rentalForDeletion = _context.Rentals.Find(rental.Id);
+
+            _context.Rentals.Remove(rentalForDeletion);
+
+            _context.SaveChanges();
         }
     }
 }

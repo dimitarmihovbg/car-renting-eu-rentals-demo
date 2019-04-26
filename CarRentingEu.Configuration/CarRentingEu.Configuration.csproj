@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CarRentingEu.Data\CarRentingEu.Data.csproj" />
     <ProjectReference Include="..\CarRentingEu.Services.Interfaces\CarRentingEu.Services.Interfaces.csproj" />
     <ProjectReference Include="..\CarRentingEu.Services\CarRentingEu.Services.csproj" />
   </ItemGroup>

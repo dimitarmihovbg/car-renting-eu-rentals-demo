@@ -1,11 +1,8 @@
-﻿using CarRentingEu.Models;
-using CarRentingEu.Repository;
+﻿using CarRentingEu.Data;
+using CarRentingEu.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CarRentingEu.Configuration
 {
