@@ -9,4 +9,3 @@ C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Re
 C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Release\netcoreapp2.0\CarRentingEu.Models.csproj.CopyComplete
 C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Release\netcoreapp2.0\CarRentingEu.Models.dll
 C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Release\netcoreapp2.0\CarRentingEu.Models.pdb
-C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Release\netcoreapp2.0\CarRentingEu.Models.csprojAssemblyReference.cache

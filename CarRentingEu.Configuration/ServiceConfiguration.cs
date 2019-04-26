@@ -30,6 +30,11 @@ namespace CarRentingEu.Configuration
             return services.AddTransient<ICustomerService, CustomerService>();
         }
 
+        public IServiceCollection RegisterProviderService()
+        {
+            return services.AddTransient<IProviderServices, ProviderService>();
+        }
+
         public IServiceCollection RegisterRentalsService()
         {
             return services.AddTransient<IRentalService, RentalService>();

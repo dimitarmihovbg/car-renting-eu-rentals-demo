@@ -1,0 +1,12 @@
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\bin\Debug\netcoreapp2.0\CarRentingEu.Models.deps.json
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\bin\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\bin\Debug\netcoreapp2.0\CarRentingEu.Models.pdb
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\bin\Debug\netcoreapp2.0\Microsoft.Extensions.Identity.Stores.xml
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.csprojAssemblyReference.cache
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.csproj.CoreCompileInputs.cache
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.AssemblyInfoInputs.cache
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.AssemblyInfo.cs
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.csproj.CopyComplete
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.dll
+C:\Personal Code Projects\car-renting-eu-rentals-demo\CarRentingEu.Models\obj\Debug\netcoreapp2.0\CarRentingEu.Models.pdb

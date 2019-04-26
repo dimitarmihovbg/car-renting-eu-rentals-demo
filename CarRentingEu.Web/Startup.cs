@@ -55,6 +55,7 @@ namespace CarRentingEu.Web
             services.AddSingleton(serviceConfig.RegisterCarService());
             services.AddSingleton(serviceConfig.RegisterRentalsService());
             services.AddSingleton(serviceConfig.RegisterCustomerService());
+            services.AddSingleton(serviceConfig.RegisterProviderService());
 
             //Register Mapping From Configuration ClassLibrary
             var mappingConfig = new MappingConfiguration(services);

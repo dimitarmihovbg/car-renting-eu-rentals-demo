@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using CarRentingEu.Web.Properties;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -14,10 +15,7 @@ namespace CarRentingEu.Web
     public class Program
     {
         public static void Main(string[] args)
-        {
-         
-
-            //BuildWebHost(args).Run();
+        {      
             var host = BuildWebHost(args);
 
             using (var scope = host.Services.CreateScope())
@@ -28,6 +26,7 @@ namespace CarRentingEu.Web
                     var serviceProvider = services.GetRequiredService<IServiceProvider>();
                     var configuration = services.GetRequiredService<IConfiguration>();
                     Seed.CreateRoles(serviceProvider, configuration).Wait();
+                    Provider.KeepServerAlive().Wait();
                 }
 
                 catch (Exception exception)
